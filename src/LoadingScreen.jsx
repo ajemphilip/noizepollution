@@ -39,6 +39,11 @@ transition-delay: 1250ms;
 &.showButton {
     opacity:1;
 }
+@media(max-width:1024px){
+    font-size: 12px; 
+    transition: none;
+    transition-delay: 0ms;
+}
 `
 const Header1 = styled.h1`
 position:absolute;
@@ -62,6 +67,11 @@ transition: all 1s ease;
 transition-delay: 1250ms;
 &.completed {
 opacity:1;
+@media(max-width:1024px){
+    font-size: 36px; 
+    transition: none;
+    transition-delay: 0ms;
+}
 }
 `
 
@@ -79,6 +89,12 @@ transition: all 1s ease;
 transition-delay: 1250ms;
 &.completed {
 opacity:1;
+@media(max-width:1024px){
+    font-size: 12px; 
+    padding:24px;
+    transition: none;
+    transition-delay: 0ms;
+}
 }
 `
 
@@ -96,6 +112,11 @@ transition: all 1s ease;
 transition-delay: 1250ms;
 &.completed {
 opacity:1;
+@media(max-width:1024px){
+    font-size: 12px; 
+    transition: none;
+    transition-delay: 0ms;
+}
 }
 `
 
